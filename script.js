@@ -10,17 +10,17 @@ kaboom({
 const PIPE_MARGIN = 80;
 const PIPE_OPEN = 120;
 
-loadSprite("bg", "https://kaboomjs.com/assets/sprites/bg.png");
+loadSprite("bg", "assets/4622710.webp");
 //load the background
-loadSprite("pipe", "https://kaboomjs.com/assets/sprites/pipe.png");
+loadSprite("pipe", "assets/pipe.png");
 //load the pipe
 loadSprite("bird", "bird.png");
-loadSound("wooosh", "https://kaboomjs.com/assets/sounds/wooosh.mp3");
+loadSound("wooosh", "assets/Woosh.mp3");
 //load the sound 
-loadSound("scream", "https://kaboomjs.com/assets/sounds/scream6.mp3");
-loadSound("horn", "https://kaboomjs.com/assets/sounds/horn2.mp3");
-loadSound("horse", "https://kaboomjs.com/assets/sounds/horse.mp3");
-loadSound("whizz", "https://kaboomjs.com/assets/sounds/whizz.mp3");
+loadSound("scream", "assets/Scream.mp3");
+loadSound("horn", "assets/Horn.mp3");
+loadSound("horse", "assets/Hsound.mp3");
+loadSound("whizz", "assets/Whiz.mp3");
 
 scene("game", () => {
 
